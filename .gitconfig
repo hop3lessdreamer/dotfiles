@@ -1,0 +1,14 @@
+[core]
+	autocrlf = input
+[user]
+	name = av.demidov
+	email = av.demidov@tensor.ru
+[alias]
+	st = status -s -b
+	co = checkout
+	pl = pull
+	cob = checkout -b
+	br = branch
+	cm = commit
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>'%Creset --abbrev-commit --date=relative
+	cl = clone
